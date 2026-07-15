@@ -33,8 +33,13 @@ npm install -g allure-commandline
 
 ## How to run the tests
 
-// TODO
+```bash
+npm run test-staging
+```
 
 ## How to generate report
 
-// TODO
+```bash
+npx allure generate allure-results --clean -o allure-report
+npx allure open allure-report
+```
